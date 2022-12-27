@@ -11,7 +11,6 @@ fake = Faker()
 
 
 class UserCreateTest(APITestCase):
-
     @staticmethod
     def _fake_user_data() -> dict[str, str]:
 
